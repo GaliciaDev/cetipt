@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mover Usuarios</title>
+</head>
+<body>
+    <h2>Mover Usuario por ID</h2>
+    <form action="mover_usuarios.php" method="post">
+        <label for="id">ID del Usuario:</label>
+        <input type="text" name="id" id="id">
+        <label for="tabla_origen">Tabla de Origen:</label>
+        <select name="tabla_origen" id="tabla_origen">
+            <option value="profesores">Profesor</option>
+            <option value="evaluadores">Evaluador</option>
+            <option value="administradores">Administrador</option>
+        </select>
+        <label for="tabla_destino">Mover a:</label>
+        <select name="tabla_destino" id="tabla_destino">
+            <option value="profesores">Profesor</option>
+            <option value="evaluadores">Evaluador</option>
+            <option value="administradores">Administrador</option>
+        </select>
+        <input type="submit" value="Mover Usuario">
+    </form>
+</body>
+</html>

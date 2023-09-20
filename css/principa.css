@@ -1,0 +1,36 @@
+h1{
+	color: #000000;
+	background: #00A2E8;
+	font-size: 40px;
+	font-weight: 800;
+	height: 250px;
+	position: relative;
+    top: -50px;
+ 	left: 0px;
+	right: -8px;
+
+}
+h2{
+	position: relative;
+  	top: 5px;
+	font-size: 40px;
+	font-weight: 400;
+}
+label{
+	position: relative;
+  	top: 17px;
+	font-size: 25px;
+	font-weight: 200;
+}
+
+button{
+	color: #fff;
+    background-color: #447198;
+    border-color: #447198;
+    width:130px;
+    height:25px;
+}
+img{
+	background:#3B7BF4;
+
+}

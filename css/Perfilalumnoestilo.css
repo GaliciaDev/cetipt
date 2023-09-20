@@ -1,0 +1,170 @@
+
+h1{
+
+	font-size: 40px;
+	font-weight: 800;
+	height: 90px;
+	position: relative;
+    top: -58px;
+    left: 0px;
+    right: -8px;
+}
+
+div.contenedor,
+div.contenido, {
+  width: 1200px;
+  margin: 0 auto;
+}
+div.contenidovideos {
+  width: 2000px;
+  margin: 0 auto;
+}
+div.imagen {
+  width: 200px;
+}
+
+/** Navegacion **/
+.navegacion{
+  background-color: #00A2E8;
+}
+nav {
+  width: 1200px;
+  margin:0 auto;
+  position: relative;
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+}
+
+
+nav ul li a:hover {
+  
+}
+
+/* SEgundo nivel **/
+
+nav ul ul {
+  position: absolute;
+  top:100%;
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul li:hover {
+  
+}
+
+/** Contenido Principal**/
+div.contenido::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+div.contenidovideos::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#magel{
+	position: relative;
+    top: -70px;
+	width:230px;
+    height:230px;
+}
+#pie{
+	
+	width:1500px;
+    height:120px;
+}
+.progress {
+	position: relative;
+    top: -80px;
+    height: 40px;
+    width: 40%;
+    right: -450px;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #428bca;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 400px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+#alumn{
+position: relative;
+    top: -293px;
+    right: 430px;
+}
+#software{
+position: relative;
+    top: -285px;
+    right: 395px;
+}
+#progre{
+position: relative;
+    top: 46px;
+    right: -0px;
+}
+#dire{
+position: relative;
+    top: -294px;
+    right: 430px;
+}
+#gyg{
+position: relative;
+    top: -300px;
+    right: 450px;
+}
+#regis{
+position: relative;
+    top: -310px;
+    right: 433px;
+}
+#profem{
+position: relative;
+    top: -280px;
+    right: 390px;
+}
+#profet{
+position: relative;
+    top: -267px;
+    right: 410px;
+}
+button{
+	position: relative;
+    top: -50px;
+    right: -700px;
+	color: #fff;
+    background-color: #447198;
+    border-color: #447198;
+}
